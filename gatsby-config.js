@@ -8,11 +8,15 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/Neuromorphic-Foundaries`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Neuromorphic Foundaries`,
+    description: `The next era of computing inspired by the brain.`,
+    author: {
+      name: `Brian Pho`,
+      github: `Brian-Pho`,
+    },
+    siteUrl: `https://brianpho.com/Neuromorphic-Foundaries/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -28,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Neuromorphic Foundaries`,
+        short_name: `NMF`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
