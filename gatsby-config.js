@@ -12,10 +12,7 @@ module.exports = {
   siteMetadata: {
     title: `Neuromorphic Foundaries`,
     description: `The next era of computing inspired by the brain.`,
-    author: {
-      name: `Brian Pho`,
-      github: `Brian-Pho`,
-    },
+    author: `Brian Pho`,
     siteUrl: `https://brianpho.com/Neuromorphic-Foundaries/`,
   },
   plugins: [
